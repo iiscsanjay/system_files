@@ -1,0 +1,79 @@
+[adoberepo]
+name=Adobe Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/adobe-linux-i386/
+enabled=1
+gpgcheck=0
+
+[googlerepo]
+name=Google Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/google-chrome/
+enabled=1
+gpgcheck=0
+
+[livna]
+name=Livna  Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/livna/
+enabled=1
+gpgcheck=0
+
+[fedorarepo]
+name=Fedora Nimrodel Repository
+#baseurl=file:///media/Repo/Repository/fedora/
+baseurl=ftp://10.112.10.26/Repo/fedora/
+enabled=1
+gpgcheck=0
+
+[fedoraupdates]
+name=Fedora Updates Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/fedoraupdates
+enabled=1
+gpgcheck=0
+
+[rpmfusion-free]
+name=RPM Fusion Free Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/rpmfusion-free
+enabled=1
+gpgcheck=0
+
+[rpmfusion-free-updates]
+name=RPM Fusion Free Updates Nimrodel Repository
+name=Fedora Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/rpmfusion-free-updates
+enabled=1
+gpgcheck=0
+
+[rpmfusion-nonfree]
+name=RPM Fusion Non-freeNimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/rpmfusion-nonfree
+enabled=1
+gpgcheck=0
+
+[rpmfusion-nonfree-updates]
+name=RPM Fusion Non-free Updates Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/rpmfusion-nonfree-updates
+enabled=1
+gpgcheck=0
+
+[remi]
+name=Remi Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/remi
+enabled=1
+gpgcheck=0
+
+[rpm-sphere]
+name=rpm-sphere Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/rpm-sphere
+enabled=1
+gpgcheck=0
+
+[texlive]
+name=texlive Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/texlive
+enabled=1
+gpgcheck=0
+
+[virtualbox]
+name=ViretualBox Nimrodel Repository
+baseurl=ftp://10.112.10.26/Repo/virtualbox
+enabled=1
+gpgcheck=0

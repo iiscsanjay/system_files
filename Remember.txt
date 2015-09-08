@@ -1,0 +1,47 @@
+TERMINATOR SHORTCUTS ${hr 2}$color 
+Ctrl-Shift-E: split vertically
+Ctrl-Shift-O: split horizontally
+Ctrl-Shift-N: focus to next
+Ctrl-Shift-P: focus to previous
+Ctrl-Shift-W: close
+Tmux SHORTCUTS SECTION
+tmux new -s "myname"
+tmux a \#
+tmux a -t "myname"
+tmux kill-session -t "myname"
+Ctrl-b c Create new window
+Ctrl-b d Detach current client
+Ctrl-b l Move to previously selected window
+Ctrl-b n Move to the next window
+Ctrl-b p Move to the previous window
+Ctrl-b & Kill the current window
+Ctrl-b , Rename the current window
+Ctrl-b o Switch to the next pane
+Ctrl-b n (Move to the next window)
+Ctrl-b p (Move to the previous window)
+Ctrl-b l (Move to the previously selected window)
+Ctrl-b w (List all windows / window numbers)
+Ctrl-b <window number> Move to the specified window number
+Ctrl-b % (Split the window vertically)
+Ctrl-b : “split-window” (Split window horizontally)
+Ctrl-b q Show pane numbers, when the numbers show up type the key to goto that pane)
+Ctrl-b { (Move the current pane left)
+Ctrl-b } (Move the current pane right)
+Ctrl-b <space> 
+Ctrl-b s list sessions.
+Ctrl-b [ start copy.
+Ctrl-Space start selection.
+Ctrl-w copy text from selection.
+Ctrl-b ] paste.
+Ctrl-b : command mode.
+Ctrl-b x to kill pane
+Ctrl-b f and type in the window name you want
+Playing with pane
++  break pane into window
+-  restore pane from window
+Ctrl-b ? List all keybindings
+
+Ctrl-b : resize-pane (By default it resizes the current pane down)
+Ctrl-b : resize-pane -U (Resizes the current pane upward)
+Ctrl-b : resize-pane -L (Resizes the current pane left)
+Ctrl-b : resize-pane -R (Resizes the current pane right)

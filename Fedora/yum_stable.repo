@@ -1,0 +1,105 @@
+[adobe-linux-i386]
+name=Adobe Systems Incorporated
+baseurl=http://linuxdownload.adobe.com/linux/i386/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+
+[google-chrome]
+name=google-chrome
+baseurl=http://dl.google.com/linux/chrome/rpm/stable/x86_64
+enabled=1
+gpgcheck=0
+
+[livna]
+name=rpm.livna.org for $releasever - $basearch
+baseurl=http://rpm.livna.org/repo/$releasever/$basearch/ http://ftp-stud.fht-esslingen.de/pub/Mirrors/rpm.livna.org/repo/$releasever/$basearch/
+#metalink=http://rpm.livna.org/mirrorlist
+failovermethod=roundrobin
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-livna
+
+[fedora]
+name=Fedora $releasever - $basearch
+failovermethod=priority
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/$releasever/Everything/$basearch/os/
+#metalink=http://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
+enabled=1
+metadata_expire=7d
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$basearch
+
+[updates]
+name=Fedora $releasever - $basearch - Updates
+failovermethod=priority
+baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/$releasever/$basearch/
+#metalink=http://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$basearch
+
+[rpmfusion-free]
+name=RPM Fusion for Fedora $releasever - Free
+baseurl=http://download1.rpmfusion.org/free/fedora/releases/$releasever/Everything/$basearch/os/
+#metalink=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-$releasever&arch=$basearch
+enabled=1
+metadata_expire=7d
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever-$basearch
+
+[rpmfusion-free-updates]
+name=RPM Fusion for Fedora $releasever - Free - Updates
+baseurl=http://download1.rpmfusion.org/free/fedora/updates/$releasever/$basearch/
+#metalink=http://mirrors.rpmfusion.org/mirrorlist?repo=free-fedora-updates-released-$releasever&arch=$basearch
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-fedora-$releasever-$basearch
+
+[rpmfusion-nonfree]
+name=RPM Fusion for Fedora $releasever - Nonfree
+baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/$releasever/Everything/$basearch/os/
+#metalink=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-$releasever&arch=$basearch
+enabled=1
+metadata_expire=7d
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever-$basearch
+
+[rpmfusion-nonfree-updates]
+name=RPM Fusion for Fedora $releasever - Nonfree - Updates
+baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/$releasever/$basearch/
+#metalink=http://mirrors.rpmfusion.org/mirrorlist?repo=nonfree-fedora-updates-released-$releasever&arch=$basearch
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-nonfree-fedora-$releasever-$basearch
+
+[remi]
+name=Les RPM de remi pour Fedora $releasever - $basearch
+baseurl=http://rpms.famillecollet.com/fedora/$releasever/remi/$basearch/
+#metalink=http://rpms.famillecollet.com/fedora/$releasever/remi/mirror
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+failovermethod=priority
+
+[rpm-sphere]
+name=RPM Sphere
+baseurl=http://download.opensuse.org/repositories/home:/zhonghuaren/Fedora_$releasever/
+gpgkey=http://download.opensuse.org/repositories/home:/zhonghuaren/Fedora_$releasever/repodata/repomd.xml.key
+enabled=1
+gpgcheck=0
+
+[texlive]
+name=tex live
+baseurl=http://jnovy.fedorapeople.org/texlive/2011/packages.fc16/
+enabled=1
+metadata_expire=1d
+gpgcheck=0
+
+[virtualbox]
+name=Fedora $releasever - $basearch - VirtualBox
+baseurl=http://download.virtualbox.org/virtualbox/rpm/fedora/$releasever/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=https://www.virtualbox.org/download/oracle_vbox.asc
+

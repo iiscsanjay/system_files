@@ -1,0 +1,16 @@
+#!/bin/bash
+case "$1" in
+	4.4) 
+		rm -f $HOME/.bin/gcc
+		ln -s /opt/gcc-4.4.4/bin/gcc4.4 $HOME/.bin/gcc
+		rm -f $HOME/.bin/g++
+		ln -s /opt/gcc-4.4.4/bin/g++4.4 $HOME/.bin/g++
+		;;
+	*)
+		rm -f $HOME/.bin/gcc
+		ln -s /usr/bin/gcc $HOME/.bin/gcc
+		rm -f $HOME/.bin/g++
+		ln -s /usr/bin/g++ $HOME/.bin/g++
+		;;
+esac
+
